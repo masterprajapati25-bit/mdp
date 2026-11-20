@@ -1,0 +1,15 @@
+startup:
+  enabled: false
+  # first-join = spin only the first player joining after server startup
+  # all-players = spin each player once after startup
+  mode: first-join
+
+spin:
+  duration-ticks: 100
+  starting-interval-ticks: 2
+  ending-interval-ticks: 12
+  title: "&5&lMASTER DRAGON"
+  win-message: "&aYou received &e%artifact%&a!"
+
+artifacts:
+  custom-model-data-start: 1001
